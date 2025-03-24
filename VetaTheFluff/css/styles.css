@@ -11054,3 +11054,12 @@ html {
 .copyright {
   background-color: #1a252f;
 }
+
+.portfolio-item img {
+  transition: transform 0.5s ease-in-out; /* Smooth transition */
+}
+
+.portfolio-item:hover img {
+  transform: scale(1.05); /* Slight zoom-in effect */
+}
+
